@@ -1,0 +1,150 @@
+
+- What is the java? 
+
+- What is the JDK, JRE and JVM 
+
+- Build Hello World Java Program 
+
+- What is the Object Oriented Programming 
+
+- Java keywords 
+
+- Java Regex 
+
+- Java Exceptions 
+
+- Java Threads 
+
+- Java Multithreads and Concurrencies 
+
+- Java Collections 
+
+- Java I/O 
+
+- Java Reflection 
+
+- Java JDBC 
+
+- Java Futures
+
+
+###################################################################################
+What is the java language? 
+###################################################################################
+Java is general-purpose computer programming language. it is based on class-based and object-oriented concepts.
+Java language is designed for developers with the principle “write once, run anywhere” ,  it is mean that 
+java is running on all platforms like that Windows, Macintosh, or UNIX machine that supported it is no need for recompilation. therefore Java is popular programming 
+language.
+
+Dont worry, If you are familiar with C++, learning Java will be particularly easy for you.
+There are no pointers in Java language, nor is there pointer arithmetic. Strings and arrays are real
+objects in Java language. Memory management is automatic. To an experienced developers, 
+these omissions may be difficult to get used to, but to beginners or developers 
+who have worked in other languages, they make the Java language far easier to learn.
+
+In order to develop an application with Java language, you will, of course, need a Java development environment.
+Java Development Kit (JDK) provides everything you need to start writing Java programs. 
+
+
+###################################################################################
+What About History of Java World?
+###################################################################################
+Java is developed by James Gosling at Sun Microsystems. First released  is published in 1995 as a core component of Sun Microsystems’ Java platform.
+Nowsadays big company Oracle is the current owner of the Java SE platform, be possessed of Sun Microsystems on January 27, 2010. 
+
+###################################################################################
+Java Garbage Collector Mechanisms
+###################################################################################
+if you have unused things, you collect sometimes  these things, you junk these things, same as this programming language is working like that.
+Java garbage collector is automatic  collector. it is not developer responsible. You can trust to Java language. 
+Java garbage collector is active if unused objects in memory reaches critical level. 
+
+
+###################################################################################
+What is the JDK, JRE and JVM 
+###################################################################################
+Lets learn Step by Step launch java application; 
+
+1) Create a file name of Hello.java then write a simple a code using Eclipse, Netbeans or other IDE.
+2) If you use a IDE, it is compiled automatically, otherwise you can compile with Java compiler (javac). 
+3) After compile processing, it is genereted Hello.class file.
+4) Hello.class consist of java byte code that is used by Java Virtual Machine (JVM). JVM converts .class files into native machine code.
+
+That's why JVMs are platform dependent. That's why when you compile your java source code to java bytecode you can run it on every platform.
+
+JDK is Java Development Kit to development an application. it has generic java packages.
+
+The JVM is the Java platform component that execute programs.
+The JRE is the on-disk part of Java that creates the JVM. 
+The JDK allows developers to create Java programs that can be executed and run by the JVM and JRE.
+
+###################################################################################
+Build Hello World Java Program 
+###################################################################################
+To launch an app with java, you must run main method in Java.
+
+package com.techmetriq.intro;
+
+/**
+ * @author techmetriq
+ *
+ */
+public class HelloWorld {
+	
+	/*
+	 *  Initializing of this point. 
+	 */
+	public static void main(String args[]) {
+		System.out.println("Hello, this is a first application using by Java language.");
+	}
+}
+
+
+#Why init method is main method and why put name as main?
+
+Java Main method is a static standard method and has pre registered on JVM. its name is similar to C or C++. I think that It is a name that comes 
+from the C language.  Java main method must be start public, static and void keyword and it accepts an String[] as argument.
+
+#When we call main method, what happens in JVM?
+
+The main method is the entry point of the JVM when the class in launched. 
+The JVM launchs the Java program by invoking the main method of the class identified in the command to start the program.
+
+###################################################################################
+What is the Object Oriented Programming
+###################################################################################
+
+Object Oriented Programming is very popular programming concept. C language is based on consists of nested functions. But java language is different from C language.
+Think our body. We can say it very good to understand of object-oriented programming. We have arms, eyes, head, legs  etc. these are parts of our body.
+
+Every part of our body works within itself and also works in harmony with others. Like that Java Application works concept of our body. An Java Application
+can be consist of java modules like our head or legs. 
+
+Assume that our mouth is an object. There are lots of features like speaking, eating and drinking etc. These our mouth features 
+are mouth class like simple java class. If we create a java class, we determines object features. This is relation of Object-Class Relation.
+
+Basicly Object-Oriented Concepts:
+
+Polymorphism
+Inheritence
+Encapsulation
+Abstraction
+
+Polymorphism
+  Again think our mouth. Some people in world speak English, Russian, Turkish etc. We are speak but different languages. 
+  
+  
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
