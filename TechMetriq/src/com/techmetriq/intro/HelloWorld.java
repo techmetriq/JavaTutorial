@@ -16,3 +16,8 @@ public class HelloWorld {
 		System.out.println("Hello, this is a first application using by Java language.");
 	}
 }
+
+/*
+ * OUTPUT: Hello, this is a first application using by Java language.
+ * 
+ */
