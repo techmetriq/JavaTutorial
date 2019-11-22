@@ -1,6 +1,6 @@
 package com.techmetriq.oo;
 
-public interface Mouth {
+public interface Speak {
 	
 	public void speak();
 }

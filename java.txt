@@ -133,6 +133,13 @@ Abstraction
 Polymorphism
   Again think our mouth. Some people in world speak English, Russian, Turkish etc. We are speak but different languages. 
   
+Inheritence
+
+Again think our mouth. Person who Native language is Turkish can learn second language. Than He/She speaks second language is Spanish.
+
+ 
+
+ 
   
  
 

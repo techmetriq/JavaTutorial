@@ -4,12 +4,12 @@ package com.techmetriq.oo;
  * @author TechMetriq
  *
  */
-public class FrenchPerson implements Mouth {
+public class RussianPerson implements Speak {
 	
 	@Override
 	public void speak() {
 		// // How are you TechMetriq.
-		System.out.println("Comment allez-vous TechMetriq");
+		System.out.println("привет");
 		
 	}
 	

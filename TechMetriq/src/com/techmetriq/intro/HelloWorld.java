@@ -13,11 +13,11 @@ public class HelloWorld {
 	 * Initializing of this point.
 	 */
 	public static void main(String args[]) {
-		System.out.println("Hello, this is a first application using by Java language.");
+		System.out.println("Hello, TechMetriQ");
 	}
 }
 
 /*
- * OUTPUT: Hello, this is a first application using by Java language.
+ * OUTPUT: Hello, TechMetriQ.
  * 
  */

@@ -7,17 +7,15 @@ package com.techmetriq.oo;
 public class Polymorphism {
 	
 	public static void main(String args[]) {
-		Mouth britishMouth = new BritishPerson();
-		Mouth frenchMouth = new FrenchPerson();
+		Speak britishMouth = new BritishPerson();
+		Speak russianMouth = new RussianPerson();
 		System.out.print("BritishPerson : ");
 		britishMouth.speak();
-		System.out.print("FrenchPerson : ");
-		frenchMouth.speak();
+		System.out.print("RussianPerson : ");
+		russianMouth.speak();
 	}
 }
 
 /*
- * OUTPUT 
- * BritishPerson : How Are You TechMetriq 
- * FrenchPerson : Comment allez-vous TechMetriq
+ * OUTPUT BritishPerson says Hello : Hello RussianPerson says Hello : привет
  */
