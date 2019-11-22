@@ -1,4 +1,4 @@
-package com.techmetriq.oo;
+package com.techmetriq.oo.poly;
 
 /**
  * @author TechMetriq
